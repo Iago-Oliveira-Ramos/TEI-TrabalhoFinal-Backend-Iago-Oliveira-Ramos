@@ -1,0 +1,1 @@
+[{"DepartamentoId": 1, "DepartamentoNome": "IT"}, {"DepartamentoId": 2, "DepartamentoNome": "Support"}, {"DepartamentoId": 5, "DepartamentoNome": "Commercial"}, {"DepartamentoId": 6, "DepartamentoNome": "Marketing"}, {"DepartamentoId": 9, "DepartamentoNome": "Recursos Humanos"}, {"DepartamentoId": 10, "DepartamentoNome": "Financeiro"}]

@@ -7,7 +7,7 @@ from EmpregadoApp.models import Departamentos, Empregados, Usuarios
 from EmpregadoApp.serializers import DepartamentoSerializer, EmpregadoSerializer, UsuarioSerializer
 
 from django.core.files.storage import default_storage
-# Create your views here.
+
 
 @csrf_exempt
 def departamentoApi(request, id = 0):
@@ -93,12 +93,12 @@ def usuarioApi(request, id = 0):
     if usuarios_serializer.is_valid():
       usuarios_serializer.save()
       return JsonResponse("Atualizado com sucesso.", safe=False)
-    return JsonResponse("Falha ao atualizar empregado.", safe=False)
+    return JsonResponse("Falha ao atualizar usuário.", safe=False)
 
   elif request.method == 'DELETE':
     usuario = Usuarios.objects.get(UsuarioId = id)
     usuario.delete()
-    return JsonResponse("Empregado deletado com sucesso.", safe=False)
+    return JsonResponse("Usuário deletado com sucesso.", safe=False)
 
 @csrf_exempt
 def SalvarFoto(request):

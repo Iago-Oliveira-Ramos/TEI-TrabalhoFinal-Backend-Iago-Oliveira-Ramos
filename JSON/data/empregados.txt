@@ -1,0 +1,1 @@
+[{"EmpregadoId": 1, "EmpregadoNome": "Bob", "Departamento": "IT", "DataDeIngressao": "2021-12-12", "FotoPerfil": "anonymous.png"}, {"EmpregadoId": 4, "EmpregadoNome": "Mark", "Departamento": "Commercial", "DataDeIngressao": "2022-05-03", "FotoPerfil": "Foto para crach\u00e1 - Iago Oliveira Ramos.jpeg"}]
